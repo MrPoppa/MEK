@@ -1,11 +1,54 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     tools:context=".MainActivity"
-    android:weightSum="40"
+    android:weightSum="45"
+    android:orientation="vertical"
+    android:background="@drawable/mekbg"
+
     >
 
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        />
+
+    <ListView
+        android:id="@+id/ownedItemsList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30"
+        >
+
+        </ListView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:weightSum="20"
+        android:gravity="top"
+        >
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:text="Motorola droid turbo"
+            android:layout_weight="15"
+            android:background="#888680"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="Add"
+            android:background="#292d50"
+
+
+            />
+
+        </LinearLayout>
 
 
 
