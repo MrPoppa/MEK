@@ -19,37 +19,29 @@
         android:id="@+id/ownedItemsList"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="30"
+        android:layout_weight="26"
         >
 
         </ListView>
     <LinearLayout
+        android:id="@+id/addDeviceContainer"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="5"
+        android:layout_weight="6"
         android:weightSum="20"
-        android:gravity="top"
+        android:gravity="center"
         >
-        <EditText
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:textSize="26sp"
-            android:text="Motorola droid turbo"
-            android:layout_weight="15"
-            android:background="#888680"
-            />
         <Button
+            android:layout_margin="5dp"
+            android:id="@+id/addDeviceButton"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="5"
-            android:text="Add"
+            android:layout_height="match_parent"
+            android:layout_weight="13"
+            android:textSize="20sp"
+            android:text="Add device"
             android:background="#292d50"
-
 
             />
 
         </LinearLayout>
-
-
-
 </LinearLayout>
