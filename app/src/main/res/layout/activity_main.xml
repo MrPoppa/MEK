@@ -40,7 +40,7 @@
             android:layout_weight="13"
             android:textSize="20sp"
             android:text="Add device"
-            android:background="#292d50"
+            android:background="@drawable/buttont_bg"
 
             />
 
